@@ -1,6 +1,7 @@
 # eztv.it Web Theme
 
 A theme created for a competition at eztv.it
+Web-Theme-EZTV.it
 
 ## Getting Started
 
@@ -12,8 +13,8 @@ None
 
 ## Built With
 
-* [HTML]
-* [CSS]
+- [HTML]
+- [CSS]
 
 ## Contributing
 
@@ -21,14 +22,14 @@ Project not taking contributions
 
 ## Authors
 
-* **Ian Blott** - [blott.com.au](http://blott.com.au)
+- **Ian Blott** - [blott.com.au](http://blott.com.au)
 
 ## License
 
-Copyright (C) 2018-2019 Ian Blott <git_connect@blott.com.au> - All Rights Reserved
+Copyright (C) 2018-2019 Ian Blott - All Rights Reserved
 
 This project can not be copied and/or distributed without the express permission of Ian Blott
 
-Unauthorized copying of this file, via any medium is strictly prohibited 
+Unauthorized copying of this file, via any medium is strictly prohibited
 
 Proprietary and confidential
