@@ -1,0 +1,113 @@
+		* { margin:0px; padding:0px; border-style:solid; border-color:#999; border-width:0px;}
+		body { background-image:url(page_bg.jpg); background-repeat:repeat-x; font-family:Arial,Helvetica,sans-serif; font-size: 62.5%; color:#444444; background-color:#FFF; }
+        h1, h2, h3, h4, h5, h6 { color:#275ECD; padding: 0 0 5px 0;} 
+		hr { border-width:1px; }
+		#container { width:980px; margin:auto; }
+		
+		#banner_top ul { list-style-type: none; float:right; }
+		#banner_top ul li{ float:left; }
+		#banner_top ul li a { color:#FFF; text-decoration:none; padding: 0 15px; font-size: 1.2em; line-height: 27px; background:url("banner_divider.gif") no-repeat scroll left center transparent; }
+
+		#header { clear:both; background:url("logo.png") no-repeat scroll right center transparent; min-height:110px; }
+		#header ul { list-style-type: none; float:left; padding: 30px 20px 0px 20px; }
+		
+		#main_nav li{ float:left; }
+		#main_nav li a { border-radius: 7px; padding:5px 10px; margin:0 15px; color:#444444; text-decoration:none; font-size: 1.6em; line-height: 27px; font-weight:normal; }
+		#main_nav li a:hover { background-color:#666; color:#FFF; }
+		#main_nav .select { background-color:#FFF; }
+		
+		#search_tabs { clear:both; }
+		#search_tabs li{ float:left; border-radius: 7px 7px 0px 0px;  border-width: 1px 1px 0px 1px; padding:5px 10px 4px; margin:0 5px; background-color:#eee;}
+		#search_tabs li a { color:#444444; text-decoration:none; font-size: 1.6em; line-height: 27px; font-weight:normal; }
+		#search_tabs li:hover { background-color:#999; color:#FFF; }
+		#search_tabs .select { background-color:#FFF; border-width: 1px 1px 0px 1px; padding:5px 10px; z-index:999; position:relative; }
+		
+		
+		#search_box { clear:both; background-color:#FFF; border-radius: 10px; border-width:1px; padding:20px; font-size:1.4em; margin:0 0 20px 0;  position:relative; top:-1px;  }
+		#search_box input, #search_box select { border-width:1px; border-radius: 5px; margin: 0 10px; padding: 10px; width: 300px; }
+		#search_box .search { border-width: 1px; border-radius: 5px; margin: 0 0 10px; padding: 10px 50px; background-color:#eee; }
+		#search_box a { text-decoration:none; color:#666; }
+		#search_box h3 { text-align:left; }
+		#search_box hr { margin:40px 0px; }
+		#search_box form { margin:0px 20px; }
+
+		#content { clear: both; position: relative; top: -1px;  z-index:-1; }	
+
+		#Announcement { float:left; width:660px; border-width: 1px; border-radius: 10px; margin: 0 0 20px; padding: 20px; background-color:#fff; font-size: 1.4em; }
+		#Announcement p{ margin:0 0 10px 0; }
+		
+		#today { clear:left; }
+		#today, #web_news, #tv_news { margin: 0 10px 20px 0; border-width: 1px; background-color:#fff; font-size: 1.4em; float:left; width:205px; padding:10px; overflow: auto; height:240px; }
+		#today ul, #web_news ul, #tv_news ul { list-style-type: none; }
+		#today li, #web_news li, #tv_news li { padding: 0 0 5px 0; }
+		#today a, #web_news a, #tv_news a { color: #444; text-decoration:none; }
+		#today a:hover, #web_news a:hover, #tv_news a:hover { color: #275ECD; text-decoration:underline; }
+		
+		#main_r { float:right; width:215px; min-height:410px; overflow:hidden; border-width: 1px; border-radius: 10px; margin: 0 0 10px; padding: 20px; background-color:#fff; font-size: 1.4em; }
+		
+		#torrents, #calendar_list  { clear:both; background-color:#FFF; border-width:1px; border-radius: 10px; padding:20px; font-size:1.4em; margin: 0 0 20px 0; position:relative; top:-1px;  }
+		#torrents h4 { padding: 10px 0; }
+
+
+		#calendar_list h2 { padding: 10px 0; clear:both; }
+
+		#calendar_list .show_name{ padding: 15px; }
+
+		#footer { clear:both; text-align:center; }
+
+		.clear { clear:both; }
+		.center { text-align:center; }
+		.row { clear:both; border-bottom: solid 1px #ccc; }
+		
+		.torrent_name, .torrent_links, .torrent_time, .torrent_forum { float:left; padding:5px 0; text-align:center; }
+		.torrent_name { width:580px; text-align:left; overflow:hidden; }
+		.torrent_links { width:175px; text-align:left; }
+		.torrent_time { width:100px; }
+		.torrent_forum { width:75px; }
+		.torrent_name a { color: #444; text-decoration:none; }
+		.torrent_name a:hover { color: #275ECD; text-decoration:underline; }
+
+
+		.show_name, .show_status, .show_rating, .show_img { float:left; padding:5px 0; text-align:center; }
+		.show_name { width:550px; text-align:left; }
+		.show_name a { color: #444; text-decoration:none; }
+		.show_name a:hover { color: #275ECD; text-decoration:underline; }
+		.show_status { width:250px; text-align:left; }
+		.show_rating { width:120px; }
+		.show_img { idth:120px; }
+		
+		.pending { color: orange; font-weight: bold; }
+		.ended { color: #FF0000; font-weight: bold; }
+		.break { color: #51535C; font-weight: bold; }
+		.airing { color: #708259; font-weight: bold; }
+		
+		
+		.forums { clear:both; background-color:#FFF; border-width:1px; border-radius: 10px; padding:20px; font-size:1.4em; margin: 0 0 20px 0; }
+		.forums a { color: #444; text-decoration:none; }
+		.forums a:hover { color: #275ECD; text-decoration:underline; }
+		
+		.forum_row { display:block; clear:both; }
+		.forum_topic_title { float:left; width:438px; border-bottom:solid 1px #999; }
+		.forum_topic { font-weight:bold; float:left; width:400px; }
+		.forum_posts_title { float:right; width:100px; text-align:center; border-bottom:solid 1px #999; }
+		.forum_posts { float:right; width:100px; text-align:center; }
+		.forum_threads_title { float:right; width:100px; text-align:center; border-bottom:solid 1px #999; }
+		.forum_threads { float:right; width:100px; text-align:center; }
+		.forum_author_title { float:right; width:100px; border-bottom:solid 1px #999; }
+		.forum_author { float:right; width:100px; }
+		.forum_latest_title { float:right; width:200px; border-bottom:solid 1px #999; }
+		.forum_latest { font-weight:bold; float:right; width:200px; }
+		.forum_user { display: block; font-weight:normal; }
+		.forum_date { font-size: 0.8em; font-weight:normal; }
+		
+		#show_overview { float:left; width:590px; overflow:hidden; border-width: 1px; border-radius: 10px; margin: 0 0 10px; padding: 20px; background-color:#fff; font-size: 1.4em; }
+		#show_overview p, #show_details p{ margin:0 0 10px; }
+		#show_overview a { color: #444; text-decoration:none; }
+		#show_overview a:hover { color: #275ECD; text-decoration:underline; }
+		
+		#show_details { float:right; width:300px; overflow:hidden; border-width: 1px; border-radius: 10px; margin: 0 0 10px; padding: 20px; background-color:#fff; font-size: 1.4em; }
+		#show_details a { color: #444; text-decoration:none; }
+		#show_details a:hover { color: #275ECD; text-decoration:underline; }		
+		.star_rating, .status{ text-align:center; }
+		.star_rating h3, .status h3 { padding: 7px 0 0 0 }
+
